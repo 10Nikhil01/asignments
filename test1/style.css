@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+fieldset{
+    margin: 4rem auto auto auto;
+    max-width: 30vw;
+    height: auto;
+}
+form{
+    padding:10px 10px;
+}
+input{
+    width:60%;
+    border: none;
+    outline: none;
+    background: rgb(230, 230, 230);
+    padding: 10px 10px 10px 5px;
+    margin: 10px 0;
+}
+::placeholder{
+    color: rgb(124, 121, 121);
+}
+#first{
+    background: transparent;
+}
+#first::placeholder{
+    color: rgb(0,0,0);
+    text-align: right;
+}
+#second, #fifth{
+    width:50%
+}
+button{
+    background-color: rgba(12, 107, 184, 0.671);
+    border: none;
+    outline: none;
+    margin: 0 30px;
+    padding: 15px 50px;
+}
+
+#first-invalid,#second-invalid,#third-invalid,#forth-invalid,#fifth-invalid,#sixth-invalid,#seventh-invalid{
+    display: none;
+    color:red;
+}

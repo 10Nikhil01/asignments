@@ -1,0 +1,57 @@
+[
+    {
+      "Machine_Name": "",
+      "Machine_ID": "",
+      "Energy_Consumed": ["","",""],
+      "Active_Power": "",
+      "Reactive_Power": "",
+      "CURRENT": "",
+      "VOLTAGE": "",
+      "POWER_FACTOR": "",
+      "IDLE_TIME": ["","",""]
+    },
+    {
+      "Machine_Name": "Auto Winding Machine",
+      "Machine_ID": "machine001",
+      "Energy_Consumed": ["0","0","0"],
+      "Active_Power": "0",
+      "Reactive_Power": "0",
+      "CURRENT": "0",
+      "VOLTAGE": "0",
+      "POWER_FACTOR": "0",
+      "IDLE_TIME": ["0","0","0"]
+    },
+    {
+      "Machine_Name": "Boiler Machine",
+      "Machine_ID": "machine004",
+      "Energy_Consumed": ["0","0","0"],
+      "Active_Power": "0",
+      "Reactive_Power": "0",
+      "CURRENT": "0",
+      "VOLTAGE": "0",
+      "POWER_FACTOR": "0",
+      "IDLE_TIME": ["0","0","0"]
+    },
+    {
+      "Machine_Name": "Pressure Machine",
+      "Machine_ID": "machine008",
+      "Energy_Consumed": ["0","0","0"],
+      "Active_Power": "0",
+      "Reactive_Power": "0",
+      "CURRENT": "0",
+      "VOLTAGE": "0",
+      "POWER_FACTOR": "0",
+      "IDLE_TIME": ["0","0","0"]
+    },
+    {
+      "Machine_Name": "Indian Machine",
+      "Machine_ID": "machine010",
+      "Energy_Consumed": ["0","0","0"],
+      "Active_Power": "0",
+      "Reactive_Power": "0",
+      "CURRENT": "0",
+      "VOLTAGE": "0",
+      "POWER_FACTOR": "0",
+      "IDLE_TIME": ["0","0","0"]
+    }
+  ]

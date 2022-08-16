@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    min-height: 50vh;
+}
+fieldset{
+    border: 1px solid transparent ;
+    margin-top: 20px;
+    max-width: 95vw;
+    padding: 10px;
+    height: auto;
+}
+legend{
+    font-size: 2rem;
+    margin: 20px;
+    font-weight: 800;
+}
+.table{
+    width:95vw;
+    min-height:30vh;
+    
+}
+th,tr,td{
+    font-size: 1.2rem;
+    margin: 50px 20px 20px 20px;
+    text-align: center;
+
+}

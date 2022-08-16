@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <fieldset>
+      <form action="">
+        <label for="first">Select your source:</label>
+        <input
+          type="text"
+          name="first"
+          id="first"
+          placeholder="Google Cloud Storage"
+          disabled
+        />
+
+        <br /><br />
+
+        <label for="second">Provide a name for pipeline:</label>
+        <input
+          type="text"
+          name="second"
+          id="second"
+          placeholder="e.g., cust_shop_energy_gkateway001"
+        />
+        <div id="second-invalid">
+          a. Minimum length 5.<br />
+          b. No special characters<br />
+          c. Cannot start with '-', '_', '+'<br />
+        </div>
+
+        <br /><br />
+        <label for="third">GCS project name :</label>
+        <input type="text" name="third" id="third" placeholder="project-id" />
+        <br /><br />
+        <div id="third-invalid">
+          a. Minimum length 5.<br />
+          b. No special characters<br />
+          c. Cannot start with '-', '_', '+'<br />
+        </div>
+
+        <label for="forth">GCS bucket name :</label>
+        <input
+          type="text"
+          name="forth"
+          id="forth"
+          placeholder="gs://your-bucket"
+        />
+        <div id="forth-invalid">
+          a. Minimum length 5.<br />
+          b. No special characters<br />
+          c. Cannot start with '-', '_', '+'<br />
+        </div>
+
+        <br /><br />
+        <label for="fifth">Input Cloud Storage File(s) :</label>
+        <input
+          type="text"
+          name="fifth"
+          id="fifth"
+          placeholder="GCS location of your files"
+        />
+        <div id="fifth-invalid">
+          a. Minimum length 5.<br />
+          b. No special characters<br />
+          c. Cannot start with '-', '_', '+'<br />
+        </div>
+
+        <br /><br />
+        <label for="sixth">GCS credentials :</label>
+        <input
+          type="password"
+          name="sixth"
+          minlength="5"
+          id="sixth"
+          placeholder="******"
+        />
+        <div id="sixth-invalid">
+            a. Minimum length 5.<br>
+            b. No special characters<br>
+            c. Cannot start with '-', '_', '+'<br>
+         </div>
+
+        <br /><br />
+        <label for="seventh">Run Every :</label>
+        <input
+          type="text"
+          min="0"
+          step="1"
+          name="seventh"
+          id="seventh"
+          placeholder="(in minutes)"
+        />
+        <div id="seventh-invalid">
+            a. Minimum length 5.<br>
+            b. No special characters<br>
+            c. Cannot start with '-', '_', '+'<br>
+         </div>
+
+        <br /><br />
+        <button type="button" onclick="validation()">Create</button
+        ><button type="reset">Cancel</button>
+      </form>
+    </fieldset>
+
+    <script src="index.js"></script>
+  </body>
+</html>
